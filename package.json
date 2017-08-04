@@ -1,5 +1,26 @@
 {
   "devDependencies": {
     "mocha": "^3.5.0"
-  }
+  },
+  "name": "jrnl_api",
+  "version": "1.0.0",
+  "description": "Aws lambda backend for my journal",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fathergoose/jrnl_api.git"
+  },
+  "author": "Al Ilseman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fathergoose/jrnl_api/issues"
+  },
+  "homepage": "https://github.com/fathergoose/jrnl_api#readme"
 }
