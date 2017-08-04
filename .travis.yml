@@ -4,7 +4,7 @@ deploy:
   provider: lambda
   function_name: journal_endpoint
   region: us-west-2
-  role: arn:aws:iam::035825316120:service-role/lambda
+  role: arn:aws:iam::035825316120:/role/service-role/lambda
   runtime: nodejs6.10
   handler_name: lib/index.handler
   access_key_id: AKIAI3UL2XSC6EWAKKOA
