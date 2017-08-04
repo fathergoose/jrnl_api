@@ -1,9 +1,9 @@
 deploy:
   provider: lambda
-  function_name: lambda-test
-  region: us-east-1
-  role: arn:aws:iam::0123456789012:role/lambda_basic_execution
-  runtime: nodejs4.3
+  function_name: journal_endpoint
+  region: us-west-2
+  role: arn:aws:iam::0123456789012:role/travis_lambda_deploy
+  runtime: nodejs6.10
   handler_name: handler
   access_key_id: AKIAI3UL2XSC6EWAKKOA
   secret_access_key:
