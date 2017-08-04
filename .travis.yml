@@ -7,7 +7,7 @@ deploy:
   region: us-west-2
   role: arn:aws:iam::035825316120:role/service-role/lambda
   runtime: nodejs6.10
-  handler_name: lib/index.handler
+  handler_name: lib/handler
   access_key_id: AKIAI3UL2XSC6EWAKKOA
   secret_access_key:
     secure: U1jq4D6xlWueGDzg8BM67QLEku5lQgtqPins1a71ZbKHQMIx0j/NsJSuWvJz0zNdta2hQJ5LoIxebdfxkGT42oqTqYqUDTTMG6IQJRy4XQwm/bytH7KJpKBxQSE9CQ+A4+2RZpMaOuTl3kH6yHJEChy2SoRN8UJIKL8QXR6/6YPBPOxTmAvlBOEAhlHQ23aWwEGNxVot1BbXi4knuM2dXz/UaSjQn3d6xkcPlGmAsaYhEOtQsMqoQ2qJOVwotA971Fc3BsOLJQuhVBf2DXx4LkHMZ0853htTls/G5TIhKU2PjQaxEFjJXRzVKpeiEUK4fGTSh/jACnNolPDsGoxmKA7OLWBMBXfwhms9kjVn22rpmF1MgHK0vHv7Rc8TB0kRyNa4bK7cikDwdahEWJ4QG7A9SoGDU9gcFu2kaLs+zWYQQ1w6WrAtfES1FDlmZ72zkNfDUhBR9isQz4I5YEPclU+ZBRF/nTarlqrr9vJlsqNOBWLd+zmA+u3vZrbkQoqmXX3BDD8ldJO8weCQRf82ZTHPRiqLp/TD+V8C/AvbY78+H+6VoL6gkVZvjvUiW8SX70A/pK3geijrfPqubvk0IRBOZkg+IglsRFcnA9GWQXrDfjgypqh+A3WLT9XT5gaOWnV2SoMb4448cGW/pGzF1HRwcq3Zy8quqr1uAHk/V+Q=
